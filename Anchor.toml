@@ -1,6 +1,6 @@
 [toolchain]
 anchor_version = "0.29.0"
-solana_version = "1.18.11"
+solana_version = "1.18.21"
 
 [workspace]
 members = [
@@ -11,9 +11,7 @@ members = [
   "token/program",
   "token/program-2022",
 ]
-exclude = [
-  "account-compression/"
-]
+exclude = ["account-compression/"]
 
 [provider]
 cluster = "mainnet"
